@@ -1,8 +1,12 @@
 import React from 'react';
 
+import HomeContainer from './Home.styled';
+
 function Home() {
   return (
-    <h1>home</h1>
+    <HomeContainer>
+      <h1>teste</h1>
+    </HomeContainer>
   );
 }
 

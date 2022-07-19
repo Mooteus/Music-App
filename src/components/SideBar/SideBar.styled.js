@@ -25,17 +25,22 @@ export const LogoImage = styled(BiAlbum)`
 `;
 
 export const NavContainer = styled.nav`
-
+  margin-top: 80px;
 `;
 
 export const NavOption = styled.div`
-
+  padding-left: 40px;
+  color: gray;
+  display: flex;
+  align-items: center;
 `;
 
 export const NavOptionText = styled.span`
-
+  margin-left: 20px;
+  font-size: 25px;
 `;
 
 export const FavoritesIcon = styled(IoIosAlbums)`
-
+  width: 30px;
+  height: 30px;
 `;

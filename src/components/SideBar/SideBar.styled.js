@@ -36,8 +36,8 @@ export const NavOption = styled.div`
 `;
 
 export const NavOptionText = styled.span`
-  margin-left: 20px;
-  font-size: 25px;
+  margin-left: 25px;
+  font-size: 23px;
 `;
 
 export const FavoritesIcon = styled(IoIosAlbums)`

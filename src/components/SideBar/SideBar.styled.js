@@ -9,6 +9,7 @@ export const SideBarContainer = styled.div`
   background-color: ${white};
   width: 20%;
   height: 100vh;
+  border-right: 1px solid gray;
 `;
 
 export const LogoContainer = styled.div`

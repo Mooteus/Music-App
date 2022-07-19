@@ -30,6 +30,7 @@ export const NavContainer = styled.nav`
 `;
 
 export const NavOption = styled.div`
+  cursor: pointer;
   padding-left: 40px;
   color: gray;
   display: flex;

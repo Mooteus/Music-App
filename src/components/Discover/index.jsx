@@ -1,5 +1,7 @@
 import React from 'react';
+
 import Search from '../Search';
+import Card from '../Card';
 import
 {
   DiscoverContainer,
@@ -16,6 +18,9 @@ function Discover() {
         <Title>Discover</Title>
         <MoreSettings>...</MoreSettings>
       </TitleContainer>
+      <div>
+        <Card />
+      </div>
     </DiscoverContainer>
   );
 }

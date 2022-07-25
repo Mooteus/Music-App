@@ -4,10 +4,12 @@ import {
   LoginMain,
   LoginContainer,
   CloudContainer,
+  LoginTitle,
   LoginLabel,
   LoginLabelTitle,
   LoginEmail,
   LoginPassword,
+  ForgotPassword,
   ButtonContainer,
   LoginButton,
   RegisterButton,
@@ -19,6 +21,8 @@ function Login() {
       <CloudContainer />
       <LoginContainer>
 
+        <LoginTitle>Login</LoginTitle>
+
         <LoginLabel htmlFor="login-email">
           <LoginLabelTitle>Email</LoginLabelTitle>
           <LoginEmail id="login-email" type="text" placeholder="Digite seu email" />
@@ -28,6 +32,8 @@ function Login() {
           <LoginLabelTitle>Senha</LoginLabelTitle>
           <LoginPassword type="password" id="login-password" placeholder="Digite sua senha" />
         </LoginLabel>
+
+        <ForgotPassword href="#">Esqueci minha senha</ForgotPassword>
 
         <ButtonContainer>
           <LoginButton type="button">Login</LoginButton>

@@ -18,6 +18,10 @@ export const LoginContainer = styled.div`
   width: 65%;
 `;
 
+export const LoginTitle = styled.h1`
+  
+`;
+
 const wind = keyframes`
   0% {
     background-position: 0 200px, 0 300px, 100px 250px;
@@ -60,6 +64,11 @@ export const LoginPassword = styled.input`
   outline: 0;
   border-width: 0 0 2px;
   border-color: ${orange};
+`;
+
+export const ForgotPassword = styled.a`
+  margin-top: 20px;
+  color: gray;
 `;
 
 export const ButtonContainer = styled.div`
